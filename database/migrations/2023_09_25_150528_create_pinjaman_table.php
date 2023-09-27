@@ -16,7 +16,7 @@ return new class extends Migration
             $table->integer('id_us')->index();
             $table->integer('id_bu')->index();
             $table->string('name')->index();
-            $table->string('buku')->index();
+            $table->string('judul')->index();
             $table->string('mobile')->index();
             $table->timestamps();
         });
