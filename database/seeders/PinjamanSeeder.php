@@ -12,6 +12,6 @@ class PinjamanSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        
     }
 }
