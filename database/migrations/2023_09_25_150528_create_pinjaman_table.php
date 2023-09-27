@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('pinjam', function (Blueprint $table) {
+        Schema::create('pinjaman', function (Blueprint $table) {
             $table->id();
             $table->integer('id_us')->index();
             $table->integer('id_bu')->index();
