@@ -14,5 +14,6 @@ class Pinjaman extends Model
         'name',
         'judul',
         'mobile',
+        'tgl_kembali',
     ];
 }

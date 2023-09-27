@@ -13,6 +13,7 @@ class Buku extends Model
     protected $fillable = [
         'pengarang',
         'judul',
+        'thn_terbit',
     ];
 
     public function Users() {

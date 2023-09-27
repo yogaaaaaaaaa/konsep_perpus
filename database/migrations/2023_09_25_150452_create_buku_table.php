@@ -16,6 +16,7 @@ return new class extends Migration
             $table->id('id_bu');
             $table->string('judul')->unique();
             $table->string('pengarang');
+            $table->integer('thn_terbit');
             $table->timestamps();
         });
     }

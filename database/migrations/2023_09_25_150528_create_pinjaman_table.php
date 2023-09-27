@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('name')->index();
             $table->string('judul')->index();
             $table->string('mobile')->index();
+            $table->date('tgl_kembali');
             $table->timestamps();
         });
     }
